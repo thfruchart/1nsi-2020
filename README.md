@@ -7,3 +7,4 @@
 * Chap01 : introduction à python
 * Chap02 : boucle FOR
 * Chap03 : instructions conditionnelles IF... ELSE...
+* Chap04 : fonction 
