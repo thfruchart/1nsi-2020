@@ -1,5 +1,7 @@
 # Dépôt des 1ère NSI : 2020-2021
 
+[Entraînement QCM : conditionnelle et fonction](https://genumsi.inria.fr/qcm.php?h=0d84cb44e06135a0e83fee80009c8adb)
+
 [Evaluation 1 : boucle FOR](https://genumsi.inria.fr/qcm.php?h=574d70a3a33156140670fea86918a840)
 
 [QCM 1 : intro python](https://genumsi.inria.fr/qcm.php?h=ae1d94cd5ea194db1881dc5178335a40)
