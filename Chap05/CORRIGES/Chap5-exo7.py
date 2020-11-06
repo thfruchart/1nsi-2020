@@ -41,6 +41,13 @@ def miroir(t):
         y -= 1
     return t
 
+# solution "élégante"
+def miroir(t):
+    for i in range( len(t)//2 ):
+        echange(t,  i , len(t)-1-i )
+    return t
+
+
 print("miroir([1,2,3,4,5])=", miroir([1,2,3,4,5]))
 print("miroir([1,2,3,4,5,6])=", miroir([1,2,3,4,5,6]))
 print("miroir([])=", miroir([]))
