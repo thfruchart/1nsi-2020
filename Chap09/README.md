@@ -4,3 +4,5 @@
 * [Nombres entiers en HEXADECIMAL](https://genumsi.inria.fr/qcm.php?h=a5bce480359dc6ce1d1c3ca01397c7a1)
 * [Complément à deux](https://genumsi.inria.fr/qcm.php?h=5a4df9b19329e5c7c5d746fc9c8558c2)
 * [Taille en mémoire](https://genumsi.inria.fr/qcm.php?h=4b727fe2660fc52a5ef163f8ee2aa221)
+
+## [QCM d'évalutation](https://genumsi.inria.fr/qcm.php?h=d03745ef63d75b1f4f3359d96230a60a)
