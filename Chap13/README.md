@@ -26,4 +26,18 @@ L'objectif du travail dans ce chapitre est de se familiariser avec :
 * quelques principes de mise en forme.
 
 # Travail à faire
-1. 
+1. Ecrire une première page HTML, en personnalisant un exemple du site [w3schools](https://www.w3schools.com/html/default.asp)
+   * vous pouvez inscrire votre prénom, ou vos initiales
+   * mais veillez à ne pas mettre d'autres informations personnelles!
+   * une fois le travail effectué :
+       * utiliser le bouton 'Save' pour "publier" votre travail
+       * m'envoyer par mail un lien vers votre première page html!
+2. Ecrire une deuxième page HTML, contenant les éléments suivants : 
+   * des titres de différents niveaux
+   * plusieurs paragraphes, dont un au moins avec des retour à la ligne
+   * des listes imbriquées (numérottées, et non numérottées)
+   * un lien hypertexte
+   * une image : 
+      * libre de droits : par exemple, trouvée sur le site [https://fr.123rf.com/images-libres-de-droits/](https://fr.123rf.com/images-libres-de-droits/)
+      * un clic sur l'image doit ouvrir un lien hypertexte vers un article du site Wikipedia en rapport avec l'image
+   * aucune mise en forme supplémentaire n'est exigée.
