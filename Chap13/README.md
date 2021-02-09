@@ -25,7 +25,7 @@ L'objectif du travail dans ce chapitre est de se familiariser avec :
 * la notion de lien hypertexte
 * quelques principes de mise en forme.
 
-# Travail à faire
+# Travail à faire (1) : balises HTML
 1. Ecrire une première page HTML, en personnalisant un exemple du site [w3schools](https://www.w3schools.com/html/default.asp)
    * vous pouvez inscrire votre prénom, ou vos initiales
    * mais veillez à ne pas mettre d'autres informations personnelles!
