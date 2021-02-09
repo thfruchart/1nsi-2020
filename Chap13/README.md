@@ -42,6 +42,6 @@ L'objectif du travail dans ce chapitre est de se familiariser avec :
       * un clic sur l'image doit ouvrir un lien hypertexte vers un article du site Wikipedia en rapport avec l'image
    * aucune mise en forme supplémentaire n'est exigée.
 3.  une fois le travail effectué :
-   * utiliser le bouton 'Save' pour "publier" votre travail si vous êtes sur  [w3schools](https://www.w3schools.com/html/default.asp)
-   * m'envoyer par mail un lien vers votre première page html!
-   * si vous travaillez sur votre poste, enregistrez votre fichier et envoyez-le moi en pièce jointe!
+    * utiliser le bouton 'Save' pour "publier" votre travail si vous êtes sur  [w3schools](https://www.w3schools.com/html/default.asp)
+    * m'envoyer par mail un lien vers votre première page html!
+    * si vous travaillez sur votre poste, enregistrez votre fichier et envoyez-le moi en pièce jointe!
