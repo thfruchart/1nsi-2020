@@ -67,6 +67,10 @@ CSS signifie "Cascading Style Sheets" soit *feuilles de style en cascade*. Ce no
 
 Une idée de la richesse de CSS est accessible [dans ce memento](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/memento_css3.pdf). 
 
+* exemple : 
+   * `<p style="background-color: orange;">Paragraphe à fond orange</p>`
+* résultat affiché
+   * <p style="background-color: orange;">Paragraphe à fond orange</p>
 ## Deux balises génériques : `<span>` et `<div>`
 Pour permettre de délimiter librement une partie de document qui ne correspondrait pas à une simple balise, HTML utilise deux balises "génériques":
 * `<span>` dont l'affichage est "inline". 
