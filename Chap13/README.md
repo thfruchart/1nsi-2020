@@ -147,8 +147,7 @@ Le sélecteur peut donc être :
    
 #### On peut appliquer une même règle à plusieurs sélecteurs, séparés par des virgules : 
 ```
-h1, h2, h3{
-    color: red;
+h1, h2, h3 {propriété : valeur;
 }
 ```
 Dans ce cas tous les titres de niveau 1, 2 ou 3 appliquent la propriété.
