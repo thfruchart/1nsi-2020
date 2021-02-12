@@ -95,10 +95,10 @@ Chaque balise peut également recevoir deux attibuts particuliers
 
 ## Règles CSS
 * Il est possible d'utiliser l'attribut style d'une balise pour définir le style qu'on souhaite lui appliquer.
-* Il est également possible d'écrire une liste de **règles CSS**  dans l'entête d'un document (entre <head> et </head>) : ces règles s'appliqueront à tout un document.
+* Il est également possible d'écrire une liste de **règles CSS**  dans l'entête d'un document (entre `<head>` et `</head>`) : ces règles s'appliqueront à tout un document.
    *  ces règles sont à écrire entre les balises 
-      * <style> et
-      * </style>
+      * `<style>` et
+      * `</style>`
  
 * Enfin, on peut stocker des règles dans un fichier CSS, de sorte que ces règles s'appliqueront à toutes les pages HTML d'un site. 
    * dans ce cas, on écrit dans l'entête :
@@ -150,5 +150,5 @@ IL est églement possible d'enchaîner les selecteurs :
 .classe3  p  { propriété : valeur;
 }
 ```
-Dans ce cas, la propriété ne s'applique qu'aux balises <p>  contenues dans une balise appartenant à la classe3 !
+Dans ce cas, la propriété ne s'applique qu'aux balises `<p>`  contenues dans une balise appartenant à la classe3 !
 
