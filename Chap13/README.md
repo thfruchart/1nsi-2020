@@ -159,3 +159,8 @@ Dans ce cas tous les titres de niveau 1, 2 ou 3 appliquent la propriété.
 ```
 Dans ce cas, la propriété ne s'applique qu'aux balises `<p>`  contenues dans une balise appartenant à la classe3 !
 
+# Travail à faire (2)
+* Mettre en forme le contenu du fichier [exercice.html ](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/exercice.html)
+* les consignes de mise en forme sont contenues dans le fichier!
+   * on pourra commencer par définir un attribut style pour les balises
+   *  écrire ensuite toutes les règles css utiles dans l'entête du fichier.
