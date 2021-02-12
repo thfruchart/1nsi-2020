@@ -52,9 +52,19 @@ L'objectif du travail dans ce chapitre est de se familiariser avec :
 En HTML, chaque **balise** peut contenir un ou plusieurs **attributs** qui reçoivent chacun une **valeur**.
 
 Un exemple déjà rencontré est celui de la balise **`<a>`** qui contient un attribut **`href`** dont la valeur est un lien hypertexte : 
-* `<a href="https://github.com/thfruchart/1nsi-2020/edit/master/Chap13/README.md">Lien vers cette page</a>` 
-* [Lien vers cette page](https://github.com/thfruchart/1nsi-2020/edit/master/Chap13/README.md)
+* exemple 
+   * `<a href="https://github.com/thfruchart/1nsi-2020/edit/master/Chap13/README.md">Lien vers cette page</a>` 
+* résultat affiché :
+   * [Lien vers cette page](https://github.com/thfruchart/1nsi-2020/edit/master/Chap13/README.md)
 
+## L'attribut style
+Chaque balise peut recevoir un attribut style. 
+Les valeurs décrites pour cet attribut s'appliquent à la partie du document commandée par cette balise : le plus souvent, entre la balise ouvrante et la balise fermante. 
 
+Les valeurs possilbes pour un attribut style sont très nombreuses : elles sont écrites en langage CSS.
+
+CSS signifie "Cascading Style Sheets" soit feuilles de style en cascade. 
+
+Une description synthétique de CSS est disponible [ici](). 
 
 
