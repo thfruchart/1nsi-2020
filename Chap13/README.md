@@ -59,12 +59,14 @@ Un exemple déjà rencontré est celui de la balise **`<a>`** qui contient un at
 
 ## L'attribut style
 Chaque balise peut recevoir un attribut style. 
-Les valeurs décrites pour cet attribut s'appliquent à la partie du document commandée par cette balise : le plus souvent, entre la balise ouvrante et la balise fermante. 
+Les valeurs décrites pour cet attribut ne s'appliquent qu'à la partie du document commandée par cette balise (entre la balise ouvrante et la balise fermante). 
 
-Les valeurs possilbes pour un attribut style sont très nombreuses : elles sont écrites en langage CSS.
+Les valeurs possibles pour un attribut style sont très nombreuses : elles sont écrites en langage CSS.
 
-CSS signifie "Cascading Style Sheets" soit feuilles de style en cascade. 
+CSS signifie "Cascading Style Sheets" soit *feuilles de style en cascade*. Ce nom vient de ce qu'on peut écrire des règles CSS qui s'appliquent "en cascade" aux divers éléments contenus dans des balises HTML. 
 
-Une description synthétique de CSS est disponible [ici](). 
+Une description synthétique de CSS est disponible [ici](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/memento_css3.pdf). 
+
+## Deux balises génériques : `<span>` et `<div>`
 
 
