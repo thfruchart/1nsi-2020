@@ -45,3 +45,16 @@ L'objectif du travail dans ce chapitre est de se familiariser avec :
     * utiliser le bouton 'Save' pour "publier" votre travail si vous êtes sur  [w3schools](https://www.w3schools.com/html/default.asp)
     * m'envoyer par mail un lien vers votre première page html!
     * si vous travaillez sur votre poste, enregistrez votre fichier et envoyez-le moi en pièce jointe!
+    
+
+# CSS : une question de style
+## Balise, attribut, valeur
+En HTML, chaque **balise** peut contenir un ou plusieurs **attributs** qui reçoivent chacun une **valeur**.
+
+Un exemple déjà rencontré est celui de la balise **`<a>`** qui contient un attribut **`href`** dont la valeur est un lien hypertexte : 
+* `<a href="https://github.com/thfruchart/1nsi-2020/edit/master/Chap13/README.md">Lien vers cette page</a>` 
+* [Lien vers cette page](https://github.com/thfruchart/1nsi-2020/edit/master/Chap13/README.md)
+
+
+
+
