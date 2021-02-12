@@ -101,7 +101,26 @@ Chaque balise peut également recevoir deux attibuts particuliers
 ### Structure d'une règle CSS
 On peut écrire une règle CSS avec la syntaxe : 
 
-```nom_de_balise { propriété1 : valeur1;
-                   propriété2 : valeur2; ```
+```
+nom_de_balise { propriété1 : valeur1;
+                ...
+                propriéték : valeurk
+}
+```
+
+ou 
+```
+#nom_id { propriété1 : valeur1;
+          ...
+          propriéték : valeurk
+}
+```
+ou 
+```
+.nom_de_classe { propriété1 : valeur1;
+                 ...
+                 propriéték : valeurk
+}
+```
 
 
