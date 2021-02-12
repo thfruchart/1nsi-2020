@@ -145,7 +145,15 @@ Le sélecteur peut donc être :
 * ou `*`
    * dans ce cas, la propriété s'applique à n'importe quelle balise. 
    
-IL est églement possible d'enchaîner les selecteurs :
+#### On peut appliquer une même règle à plusieurs sélecteurs, séparés par des virgules : 
+```
+h1, h2, h3{
+    color: red;
+}
+```
+Dans ce cas tous les titres de niveau 1, 2 ou 3 appliquent la propriété.
+
+#### IL est églement possible d'enchaîner les selecteurs :
 ```
 .classe3  p  { propriété : valeur;
 }
