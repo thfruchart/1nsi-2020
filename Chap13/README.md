@@ -65,8 +65,15 @@ Les valeurs possibles pour un attribut style sont très nombreuses : elles sont 
 
 CSS signifie "Cascading Style Sheets" soit *feuilles de style en cascade*. Ce nom vient de ce qu'on peut écrire des règles CSS qui s'appliquent "en cascade" aux divers éléments contenus dans des balises HTML. 
 
-Une description synthétique de CSS est disponible [ici](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/memento_css3.pdf). 
+Une idée de la richesse de CSS est accessible [dans ce memento](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/memento_css3.pdf). 
 
 ## Deux balises génériques : `<span>` et `<div>`
+Pour permettre de délimiter librement une partie de document qui ne correspondrait pas à une simple balise, HTML utilise deux balises "génériques":
+* `<span>` dont l'affichage est "inline". 
+   * Les éléments "inline" sont juxtaposés horizontalement tant que de la place est disponible ; ensuite l'affichage reprend dans la ligne du dessous.
+* `<div>` dont l'affichage est "bloc".
+   * Chaque élément "block" occupe toute la largeur disponible. 
+   * Plusieurs élément "block" successifs sont affichés les uns en dessous des autres. 
+
 
 
