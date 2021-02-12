@@ -69,8 +69,15 @@ Une idée de la richesse de CSS est accessible [dans ce memento](https://github.
 
 * exemple : 
    * `<p style="background-color: orange;">Paragraphe à fond orange</p>`
-* résultat affiché
-   * <p style="background-color: orange;">Paragraphe à fond orange</p>
+* syntaxe :
+   * la valeur de l'attribut `style` est écrite entre `"` après le signe `=`
+   * cette valeur se décompose en : 
+      * `background-color` qui est le nom d'une propriété CSS
+      * `:`
+      * `orange` qui est la valeur de la propriété 
+      * `;`  permet d'écrire plusieurs propriétés à la suite
+   
+   
 ## Deux balises génériques : `<span>` et `<div>`
 Pour permettre de délimiter librement une partie de document qui ne correspondrait pas à une simple balise, HTML utilise deux balises "génériques":
 * `<span>` dont l'affichage est "inline". 
@@ -79,5 +86,22 @@ Pour permettre de délimiter librement une partie de document qui ne correspondr
    * Chaque élément "block" occupe toute la largeur disponible. 
    * Plusieurs élément "block" successifs sont affichés les uns en dessous des autres. 
 
+## Deux attibuts spécifiques pour identifier les élements d'un document HTML
+Chaque balise peut également recevoir deux attibuts particuliers
+* `id` : identifiant unique dans tout le document, qui permet de spécifier une balise en particulier.
+* `class` : nom de classe, qui peut être commun à plusieurs balises différentes dans un même document. 
+   * une même balise peut recevoir plusieurs noms de classes séparés par des espaces. 
+   * `class="nom1 nom2 nom3"`
+
+## Règles CSS
+* Il est possible d'utiliser l'attribut style d'une balise pour définir le style qu'on souhaite lui appliquer.
+* Il est également possible d'écrire une liste de **règles CSS**  dans l'entête d'un document : ces règles s'appliqueront à tout un document.
+* Enfin, on peut stocker des règles dans un fichier CSS, de sorte que ces règles s'appliqueront à toutes les pages HTML d'un site. 
+
+### Structure d'une règle CSS
+On peut écrire une règle CSS avec la syntaxe : 
+
+```nom_de_balise { propriété1 : valeur1;
+                   propriété2 : valeur2; ```
 
 
