@@ -101,6 +101,8 @@ Chaque balise peut également recevoir deux attibuts particuliers
       * </style>
  
 * Enfin, on peut stocker des règles dans un fichier CSS, de sorte que ces règles s'appliqueront à toutes les pages HTML d'un site. 
+   * dans ce cas, on écrit dans l'entête :
+      * `<link type="text/css" rel="stylesheet"  href="style.css" />`
 
 ### Structure d'une règle CSS
 On peut écrire une règle CSS avec la syntaxe : 
