@@ -122,5 +122,27 @@ ou
                  propriéték : valeurk
 }
 ```
-
+ou 
+```
+* { propriété1 : valeur1;
+                 ...
+                 propriéték : valeurk
+}
+```
+Le sélecteur peut donc être : 
+* un nom de balise, 
+   * dans ce cas, les propriétés décrites s'appliquent à toutes les balises qui portent ce nom
+* un nom d'id 
+   * dans ce cas, les propriétés décrites s'appliquent à l'unique balise qui possède cet id
+* ou un nom de classe 
+   * dans ce cas, les propriétés décrites s'appliquent à toutes les balises qui appartiennent à cette classe.
+* ou `*`
+   * dans ce cas, la propriété s'applique à n'importe quelle balise. 
+   
+IL est églement possible d'enchaîner les selecteurs :
+```
+.classe3  p  { propriété : valeur;
+}
+```
+Dans ce cas, la propriété ne s'applique qu'aux balises <p>  contenues dans une balise appartenant à la classe3 !
 
