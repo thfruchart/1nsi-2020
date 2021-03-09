@@ -50,4 +50,4 @@ Le navigateur est le programme **client**, et la page web demandée est héberg�
       *  tous les clients qui se connectent à un même serveur ne cherchent pas la même chose
       *  avant d'envoyer sa réponse, le serveur doit exécuter un programme qui "traite" la demande du client
 
-La suite du cours présente la manière la plus classique d'adresser une requête avec paramètres : l'utilisation d'un formulaire.
+La suite du cours présente la manière la plus classique d'adresser une requête avec paramètres : l'utilisation d'un [formulaire](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md).
