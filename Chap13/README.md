@@ -15,5 +15,8 @@
 
 
 ## Interaction client-serveur
-## [Formulaire](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
+
+## [Formulaire d'une page web](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
+
+
 
