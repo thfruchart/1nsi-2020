@@ -8,7 +8,7 @@ Il y a donc deux types d’application installés sur les machines :
 
 ![image](https://user-images.githubusercontent.com/66477650/110476443-4562d000-80e2-11eb-81c1-3201a93cfa41.png)
 
-
+## Etapes d'une communication Client-Serveur
 ![image](https://user-images.githubusercontent.com/66477650/110476488-51e72880-80e2-11eb-9733-8872ed9d9d71.png)
 #### Le serveur :
 1. attend une connexion de la part du client ;
