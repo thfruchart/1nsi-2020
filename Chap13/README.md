@@ -8,6 +8,6 @@
 
 # [CSS : une question de style](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/CSS.md)
 
-# Formulaire
+# [Requêtes et Formulaire](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
 
 # Javascript
