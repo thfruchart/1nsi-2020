@@ -12,3 +12,28 @@
    3. le navigateur établit une connexion avec le serveur avec les protocoles TCP/IP
    4. une fois la connexion établie, le navigateur effectue une **requête HTTPS, ou HTTP** : [voir ce lien](https://pixees.fr/informatiquelycee/n_site/nsi_prem_http.html)
    5. lorsqu'il reçoit la réponse du serveur, il peut traiter cette réponse (effectuer d'autres requêtes) puis afficher la page.
+
+# Architecture Client-Serveur
+Dans l’architecture Client-Serveur, on trouve en général un serveur et plusieurs clients. 
+Le serveur est une machine qui traite les requêtes du client et lui envoie éventuellement une réponse.
+
+Il y a donc deux types d’application installés sur les machines :
+* l’application « serveur » : écoute en attendant des connexions des clients ;
+* les applications « client » : se connectent au serveur.
+
+![image](https://user-images.githubusercontent.com/66477650/110476443-4562d000-80e2-11eb-81c1-3201a93cfa41.png)
+
+
+![image](https://user-images.githubusercontent.com/66477650/110476488-51e72880-80e2-11eb-9733-8872ed9d9d71.png)
+#### Le serveur :
+1. attend une connexion de la part du client ;
+2. accepte la connexion quand le client se connecte ;
+3. échange des informations avec le client ;
+4. ferme la connexion.
+
+#### Le client :
+1. se connecte au serveur ;
+2. échange des informations avec le serveur ;
+3. ferme la connexion.
+
+
