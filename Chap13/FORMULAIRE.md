@@ -38,13 +38,14 @@ Créer un fichier `formulaire1.html`, et copier-coller le contenu suivant
 Essayer d'expliquer comment le choix de l'utilisateur dans le formulaire est "envoyé" au site qwant.com.
 
 ## 2. Syntaxe d'un formulaire HTML
+#### [Autres exemples de formulaire](https://www.w3schools.com/html/html_forms.asp)
 **A retenir** : 
 * un formulaire est défini avec une balise html **`<form>  </form>`**
 * cette balise peut contenir des éléments de texte "classique" (titre, paragraphe), 
 * il existe une balise spécifique aux formulaires :  **`<input>`**
    * l'attribut principal d'une balise <input> est `type`
    * la valeur la plus simple de cet attribut est :  `type="text"`
-   * d'autre valeurs sont décrites [ici](https://www.w3schools.com/html/html_forms.asp)
+   * d'autre valeurs sont décrites [ici](https://www.w3schools.com/html/html_form_elements.asp)
 * une fois un formulaire rempli, il peut être **envoyé** à l'aide d'un bouton défini par la syntaxe `<input type="submit" value="Texte_du_bouton">`
    * la manière dont le formulaire est envoyé est décrite dans la balise   `<form>` avec deux attributs
       *  `method` qui peut prendre la valeur "post"  ou "get" (ou d'autres valeurs que nous n'étudierons pas)
