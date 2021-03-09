@@ -39,3 +39,15 @@ Le navigateur est le programme **client**, et la page web demandée est héberg�
    3. le navigateur établit une connexion avec le serveur avec les protocoles TCP/IP
    4. une fois la connexion établie, le navigateur effectue une **requête HTTPS, ou HTTP** : [voir ce lien](https://pixees.fr/informatiquelycee/n_site/nsi_prem_http.html)
    5. lorsqu'il reçoit la réponse du serveur, il peut traiter cette réponse (effectuer d'autres requêtes) puis afficher la page.
+
+
+## requête "simple" ou requête "avec paramètres"
+* dans les cas les plus simples, la requête envoyée par le client se limite à demander une ressource hébergée sur le serveur : cette requête est traitée directement.
+* dans d'autre cas, le client envoie avec sa requête des **paramètres** qui sont traités par le serveur
+   * cela signifie qu'avant d'envoyer la ressource demandée, le serveur exécute un programme (écrit en PHP, en Python ou autre)
+   * ce programme produit du contenu (html en général) qui est renvoyé en réponse au client.
+   * un exemple courant de ce type de requête est celui d'un **moteur de recherche** :
+      *  tous les clients qui se connectent à un même serveur ne cherchent pas la même chose
+      *  avant d'envoyer sa réponse, le serveur doit exécuter un programme qui "traite" la demande du client
+
+La suite du cours présente la manière la plus classique d'adresser une requête avec paramètres : l'utilisation d'un formulaire.
