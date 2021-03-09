@@ -5,10 +5,10 @@
 * [w3schools](https://www.w3schools.com/html/default.asp)
 
 # 1. HTML : un langage de balises pour le Web
-* [ouvrir le document](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/HTML.md)
+* [cours-TP](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/HTML.md)
 
 # 2. CSS : une question de style
-* [ouvrir le document](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/CSS.md)
+* [cours-TP](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/CSS.md)
 
 # 3. Interaction entre l'homme et la machine
 ## 3.a Interaction avec l’utilisateur dans une page Web 
@@ -17,10 +17,10 @@
 
 
 ## 3.b Interaction client-serveur
-* [ouvrir le document](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/Requete.md)
-* 
+* [notion de requête](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/Requete.md)
+
 ## 3.c Formulaire d'une page web
-* [ouvrir le document](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
+* [TP-cours](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
 
 
 
