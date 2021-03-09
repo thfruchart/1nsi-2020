@@ -41,7 +41,7 @@ Le navigateur est le programme **client**, et la page web demandée est héberg�
    5. lorsqu'il reçoit la réponse du serveur, il peut traiter cette réponse (effectuer d'autres requêtes) puis afficher la page.
 
 
-## requête "simple" ou requête "avec paramètres"
+## Requête "simple" ou requête "avec paramètres"
 * dans les cas les plus simples, la requête envoyée par le client se limite à demander une ressource hébergée sur le serveur : cette requête ne nécessite pas de traitement particulier. Le serveur envoie au client la ressource demandée.
 * dans d'autre cas, le client envoie avec sa requête des **paramètres** qui seront traités par le serveur
    * cela signifie qu'avant d'envoyer la ressource demandée, le serveur exécute un programme (écrit en PHP, en Python ou autre)
