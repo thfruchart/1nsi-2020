@@ -35,4 +35,4 @@ Créer un fichier `formulaire1.html`, et copier-coller le contenu suivant
 *  tester de nouveau le formulaire : quel changement constatez-vous
 
 #### e. Observer l'URL (dans la barre d'adresse du navigateur)
-Essayer d'expliquer comment le choix de l'utilisateur dans le formulaire est-il "envoyé" au site qwant.com ?
+Essayer d'expliquer comment le choix de l'utilisateur dans le formulaire est "envoyé" au site qwant.com.
