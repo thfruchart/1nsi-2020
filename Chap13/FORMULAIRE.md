@@ -2,7 +2,7 @@
 
 ## 1. Un exemple pour démarrer
 #### a. Avec un éditeur de texte:
-créer un fichier formulaire1.html, et copier-coller le contenu suivant
+Créer un fichier `formulaire1.html`, et copier-coller le contenu suivant
 ```html
 <!doctype html>
 <html>
@@ -30,7 +30,7 @@ créer un fichier formulaire1.html, et copier-coller le contenu suivant
 * Sélectionner l'une de langues, puis cliquer sur le bouton Valider
 *  Comparer ce qu'on obtient en sélectionnant une autre langue
 
-#### d. Sauvegarder votre fichier sous le nom formulaire2.html
+#### d. Sauvegarder votre fichier sous le nom `formulaire2.html`
 * modifier, toutes la balises `<input type="radio" name="l" ... >` en remplaçant name="l" par name="**q**"
 *  tester de nouveau le formulaire : quel changement constatez-vous
 
