@@ -10,7 +10,7 @@
    1. le navigateur isole le nom de domaine :   `github.com`  
    2. le navigateur effectue une **requête DNS** pour obtenir l'adresse IP du serveur Web qui héberge le site
    3. le navigateur établit une connexion avec le serveur avec les protocoles TCP/IP
-   4. une fois la connexion établie, le navigateur effectue une requête HTTP : [voir ce lien](https://pixees.fr/informatiquelycee/n_site/nsi_prem_http.html)
+   4. une fois la connexion établie, le navigateur effectue une requête HTTPS, ou HTTP : [voir ce lien](https://pixees.fr/informatiquelycee/n_site/nsi_prem_http.html)
    5. lorsqu'il reçoit la réponse du serveur, il peut traiter cette réponse (effectuer d'autres requêtes) puis afficher la page.
 
 # Formulaire HTML
