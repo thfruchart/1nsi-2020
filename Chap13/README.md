@@ -14,5 +14,6 @@
 * [TP Javascript](https://pixees.fr/informatiquelycee/n_site/nsi_prem_js.html)
 
 
-## [Requêtes et Formulaire](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
+## Interaction client-serveur
+## [Formulaire](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
 
