@@ -8,6 +8,9 @@
 
 # [CSS : une question de style](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/CSS.md)
 
-# [Requêtes et Formulaire](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
+# Interaction entre l'homme et la machine
+## Interaction avec l’utilisateur dans une page Web avec [Javascript](https://pixees.fr/informatiquelycee/n_site/nsi_prem_js.html)
 
-# Javascript
+
+## [Requêtes et Formulaire](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/FORMULAIRE.md)
+
