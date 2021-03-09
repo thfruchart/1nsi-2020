@@ -24,7 +24,7 @@ Il y a donc deux types d’application installés sur les machines :
 
 
 # Que se passe-t-il lorsqu'un navigateur "ouvre" une page web ? 
-Le navigateur est **client**, et la page web demandée est hébergée sur un **serveur**.
+Le navigateur est le programme **client**, et la page web demandée est hébergée sur un ordinateur où s'exécute en permanence un programme **serveur**.
 
 * Chaque page Web est définie par une **adresse** appelée **URL** (*Uniform Resource Locator*).
 * une URL peut se présenter sous la forme (simple) `protocole://nom-ou-adresse/document`
