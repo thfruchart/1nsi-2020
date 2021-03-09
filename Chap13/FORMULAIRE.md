@@ -46,7 +46,8 @@ Essayer d'expliquer comment le choix de l'utilisateur dans le formulaire est "en
    * l'attribut principal d'une balise <input> est `type`
    * la valeur la plus simple de cet attribut est :  `type="text"`
    * d'autre valeurs sont décrites [ici](https://www.w3schools.com/html/html_form_elements.asp)
-* une fois un formulaire rempli, il peut être **envoyé** à l'aide d'un bouton défini par la syntaxe `<input type="submit" value="Texte_du_bouton">`
+* une fois un formulaire rempli, il peut être **envoyé** à l'aide d'un bouton défini par :
+*  `<input type="submit" value="Texte_du_bouton">`
    * la manière dont le formulaire est envoyé est décrite dans la balise   `<form>` avec deux attributs
-      *  `method` qui peut prendre la valeur "post"  ou "get" (ou d'autres valeurs que nous n'étudierons pas)
-      *  `action` qui décrit la ressource qui sera demandée lorsqu'on valide le formulaire. Contrairement à ce que suggère le nom, cet attribut ne décrit pas une action, mais une ressource (un peu comme l'attribut `href` d'une balise `<a>`, ou l'attribut `src` d'une balise `<img>`) 
+      *  **`method`** qui peut prendre la valeur **"post"**  ou **"get"** (ou d'autres valeurs que nous n'étudierons pas)
+      *  **`action`** qui décrit la ressource qui sera demandée lorsqu'on valide le formulaire. Contrairement à ce que suggère le nom, cet attribut ne décrit pas une action, mais une ressource (un peu comme l'attribut `href` d'une balise `<a>`, ou l'attribut `src` d'une balise `<img>`) 
