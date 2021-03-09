@@ -2,7 +2,7 @@
 
 ## 1. Un exemple pour démarrer
 Avec un éditeur de texte, créer un fichier formulaire1.html, et copier-coller le contenu suivant
-```
+```html
 <!doctype html>
 <html>
  <head>
