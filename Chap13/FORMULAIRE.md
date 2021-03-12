@@ -58,10 +58,33 @@ Essayer d'expliquer comment le choix de l'utilisateur dans le formulaire est "en
 * la syntaxe de l'url est alors la suivante : 
    * `protocole://nom-ou-adresse/document?n1=v1&n2=v2...&nk=vk` 
       * un **?** sépare la partie décrivant le document de la liste des paramètres
-      * chaque paramètre est de la forme **n=v** avec `n`le nom du paramètre et `v` sa valeur
+      * chaque paramètre est de la forme **n=v** avec `n` le nom du paramètre et `v` sa valeur
       * les différents paramètres sont séparés par le symbole **&**
 #### Quand utiliser la méthode get ?
-Comme son nom l'indique, la méthode get est destinée à demander une ressource : cette méthode est appropriée pour un formulaire de recherche, par exemple.
+Comme son nom l'indique, la méthode get est destinée à demander une ressource : 
+* cette méthode est appropriée pour un formulaire de recherche, par exemple, et plus généralement, à toute requête qui n'exige pas de mettre à jour certaines données sur le serveur. 
+* cette méthode permet de stocker la valeur des paramètres dans l'URL, ce qui est pratique si on souhaite faire un LIEN (à partager, ou à stocker dans ses favoris)
 #### Quand NE PAS utiliser la méthode get ?
 * Puisque la longueur d'une URL est limitée, avec la méthode get il est impossible d'envoyer un paramètre de taille arbitrairement longue (un message dans un forum par exemple). On n'emploiera donc pas cette méthode si le formulaire contient un champ <textarea> (qui permet de saisir un "long" texte).
 * Puisque la valeur des paramètres est affiché dans l'url, **on n'emploiera pas la méthode get pour envoyer des informations personnelles** : adresse mail, ou surtout mot de passe !  
+* Si les données envoyées sont destinées à être stockées sur le serveur, l'utilisation de get est impossible. 
+
+## méthode post
+* si un formulaire est envoyé avec la méthode **post**, les noms des paramètres ainsi que leurs valeurs sont envoyées dans le corps de la requête.
+* la syntaxe de l'url est alors inchangée : 
+   * `protocole://nom-ou-adresse/document` 
+* le navigateur génère la chaîne des paramètres sous la forme `n1=v1&n2=v2...&nk=vk` mais cette chaîne est envoyée dans le corps de la requête. 
+
+
+
+#### Quand utiliser la méthode post ?
+Comme son nom l'indique, la méthode post est destinée à envoyer des informations au serveur! 
+* dès que les informations envoyées sont destinées à être stockées sur le serveur : la méthode post s'impose.
+* dès que les informations envoyées peuvent être "longues" : la méthode post s'impose.
+* dès que les informations envoyées sont confidentielles : la méthode post s'impose.
+* exemple : 
+   * envoyer un message destiné à être publié sur un forum 
+   * envoyer un identifiant et un mot de passe
+
+#### Quand ne pas utiliser la méthode post ?
+Si on souhaite pouvoir faire un lien vers une page obtenue en envoyant un formulaire, il faut stocker la valeur des paramètres dans l'URL... la méthode post ne convient donc pas. Mais dans tous les autres cas, la méthode post est appropriée. 
