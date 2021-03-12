@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+ <head>
+     <title>
+        Un premier formulaire
+     </title>
+     <meta charset="utf8">
+ </head>
+ <body>
+    <form method="get" action="http://localhost:12345">
+        <p>
+        <label for="nom">Nom :</label>
+        <input type="text" name="utilisateur" id="nom">
+        </p>
+        <p>
+        <label for="mail">E-mail :</label>
+        <input type="email" name="courriel" id="mail">
+        </p>
+        <p>
+        <label for="pass">Mot de passe :</label>
+        <input type="password" name="pwd" id="pass" required>
+        </p>
+        <input type="submit" value="Envoyer le formulaire">
+    </form>
+ </body>
+</html>
