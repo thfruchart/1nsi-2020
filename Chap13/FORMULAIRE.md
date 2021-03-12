@@ -45,12 +45,12 @@ Essayer d'expliquer comment le choix de l'utilisateur dans le formulaire est "en
 * il existe une balise spécifique aux formulaires :  **`<input>`**
    * l'attribut principal d'une balise <input> est `type`
    * la valeur la plus simple de cet attribut est :  `type="text"`
-   * d'autre valeurs sont décrites [ici](https://www.w3schools.com/html/html_form_elements.asp) voir en particulier : 
+   * d'autre valeurs sont décrites [dans ce LIEN](https://www.w3schools.com/html/html_form_input_types.asp) voir en particulier : 
       * `<input type="number">`
       *  `<input type="password">`
       *   `<input type="checkbox">`
       *    `<input type="radio">`
-   * voir aussi les "menus déroulants" construits avec :   `<select><option>`
+   * voir aussi les "menus déroulants" construits avec :   `<select><option>` [ici](https://www.w3schools.com/html/html_form_elements.asp)
 * une fois un formulaire rempli, il peut être **envoyé** à l'aide d'un bouton défini par :
    *  `<input type="submit" value="Texte_du_bouton">`
    * la manière dont le formulaire est envoyé est décrite dans la balise   `<form>` avec deux attributs
