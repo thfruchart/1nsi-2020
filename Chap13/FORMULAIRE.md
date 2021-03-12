@@ -97,8 +97,14 @@ Comme son nom l'indique, la méthode post est destinée à envoyer des informati
 Si on souhaite pouvoir faire un lien vers une page obtenue en envoyant un formulaire, il faut stocker la valeur des paramètres dans l'URL... la méthode post ne convient donc pas. Mais dans tous les autres cas, la méthode post est appropriée. 
 
 
-# Travail à faire
-## 1.  Créer votre formulaire html
+# Travail à faire (A)
+Ecrire un formulaire qui permet de définir trois variables : `nom` `prenom`  `age`
+et qui contient un bouton pour l'envoyer avec la méthode **get** vers la ressource :
+* https://www.nsi-premiere.fr/form
+
+# Travail à faire (B)
+
+## 1.  Créer votre formulaire html personnel
 Le contenu est libre, mais il devra comporter au moins un exemple de chacun des types suivants : [voir ce LIEN](https://www.w3schools.com/html/html_form_input_types.asp)
  * `<input type="text">`
  * `<input type="number">`
