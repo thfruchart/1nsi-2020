@@ -44,7 +44,9 @@ Essayer d'expliquer comment le choix de l'utilisateur dans le formulaire est "en
 * cette balise peut contenir des éléments de texte "classique" (titre, paragraphe), 
 * il existe une balise spécifique aux formulaires :  **`<input>`**
    * l'attribut principal d'une balise <input> est `type`
-   * la valeur la plus simple de cet attribut est :  `type="text"`
+   * la valeur la plus simple de cet attribut est :  `type="text"` : exemple
+      * **`<input type="text" name="nom">`**
+      * l'attribut `name` crée un **nom de variable** destinée à recevoir la valeur saisie dans le formulaire.
    * d'autre valeurs sont décrites [dans ce LIEN](https://www.w3schools.com/html/html_form_input_types.asp) voir en particulier : 
       * `<input type="number">`
       *  `<input type="password">`
@@ -93,3 +95,22 @@ Comme son nom l'indique, la méthode post est destinée à envoyer des informati
 
 #### Quand ne pas utiliser la méthode post ?
 Si on souhaite pouvoir faire un lien vers une page obtenue en envoyant un formulaire, il faut stocker la valeur des paramètres dans l'URL... la méthode post ne convient donc pas. Mais dans tous les autres cas, la méthode post est appropriée. 
+
+
+# Travail à faire
+## 1.  Créer votre formulaire html
+Le contenu est libre, mais il devra comporter au moins un exemple de chacun des types suivants : [voir ce LIEN](https://www.w3schools.com/html/html_form_input_types.asp)
+ * `<input type="text">`
+ * `<input type="number">`
+ *  `<input type="password">`
+*   `<input type="checkbox">`
+*    `<input type="radio">`
+## 2. Ajouter un "menu déroulant"
+`<select><option>` [voir ce lien](https://www.w3schools.com/html/html_form_elements.asp)
+
+## 3. "envoyer" le formulaire
+Comme nous n'avons pas (encore) étudié la programmation côté serveur, vous allez procéder de manière simplifiée : 
+* Ajouter l'attribut  **`method="get"`** dans la balise <form>
+* Ne pas mettre d'attribut `action` (dans ce cas, la cible est la page elle-même) 
+* Créer pour chaque élément de votre formulaire, un attribut `name` définissant le **nom de variable** destinée à recevoir la valeur saisie dans le formulaire.
+* Tester votre formulaire en observant dans l'URL que les informations renvoyées sont correctes. 
