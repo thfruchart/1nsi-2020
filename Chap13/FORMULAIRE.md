@@ -110,7 +110,8 @@ Le contenu est libre, mais il devra comporter au moins un exemple de chacun des 
 
 ## 3. "envoyer" le formulaire
 Comme nous n'avons pas (encore) étudié la programmation côté serveur, vous allez procéder de manière simplifiée : 
-* Ajouter l'attribut  **`method="get"`** dans la balise <form>
+* Ajouter l'attribut  **`method="get"`** dans la balise `<form>`
 * Ne pas mettre d'attribut `action` (dans ce cas, la cible est la page elle-même) 
-* Créer pour chaque élément de votre formulaire, un attribut `name` définissant le **nom de variable** destinée à recevoir la valeur saisie dans le formulaire.
+* **Créer pour chaque élément de votre formulaire, un attribut `name` définissant le nom de variable** destinée à recevoir la valeur saisie dans le formulaire.
 * Tester votre formulaire en observant dans l'URL que les informations renvoyées sont correctes. 
+* envoyez-moi par mail le résultat de votre travail.
