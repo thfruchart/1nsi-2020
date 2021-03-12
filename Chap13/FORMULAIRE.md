@@ -47,7 +47,21 @@ Essayer d'expliquer comment le choix de l'utilisateur dans le formulaire est "en
    * la valeur la plus simple de cet attribut est :  `type="text"`
    * d'autre valeurs sont décrites [ici](https://www.w3schools.com/html/html_form_elements.asp)
 * une fois un formulaire rempli, il peut être **envoyé** à l'aide d'un bouton défini par :
-*  `<input type="submit" value="Texte_du_bouton">`
+   *  `<input type="submit" value="Texte_du_bouton">`
    * la manière dont le formulaire est envoyé est décrite dans la balise   `<form>` avec deux attributs
       *  **`method`** qui peut prendre la valeur **"post"**  ou **"get"** (ou d'autres valeurs que nous n'étudierons pas)
       *  **`action`** qui décrit la ressource qui sera demandée lorsqu'on valide le formulaire. Contrairement à ce que suggère le nom, cet attribut ne décrit pas une action, mais une ressource (un peu comme l'attribut `href` d'une balise `<a>`, ou l'attribut `src` d'une balise `<img>`) 
+
+## 3. get ou post ?
+### méthode get
+* si un formulaire est envoyé avec la méthode **get**, les noms des paramètres ainsi que leurs valeurs sont envoyées dans l'url.
+* la syntaxe de l'url est alors la suivante : 
+   * `protocole://nom-ou-adresse/document?n1=v1&n2=v2...&nk=vk` 
+      * un **?** sépare la partie décrivant le document de la liste des paramètres
+      * chaque paramètre est de la forme **n=v** avec `n`le nom du paramètre et `v` sa valeur
+      * les différents paramètres sont séparés par le symbole **&**
+#### Quand utiliser la méthode get ?
+Comme son nom l'indique, la méthode get est destinée à demander une ressource : cette méthode est appropriée pour un formulaire de recherche, par exemple.
+#### Quand NE PAS utiliser la méthode get ?
+* Puisque la longueur d'une URL est limitée, avec la méthode get il est impossible d'envoyer un paramètre de taille arbitrairement longue (un message dans un forum par exemple). On n'emploiera donc pas cette méthode si le formulaire contient un champ <textarea> (qui permet de saisir un "long" texte).
+* Puisque la valeur des paramètres est affiché dans l'url, **on n'emploiera pas la méthode get pour envoyer des informations personnelles** : adresse mail, ou surtout mot de passe !  
