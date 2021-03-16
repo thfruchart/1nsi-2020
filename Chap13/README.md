@@ -25,3 +25,5 @@
 
 
 # [QCM](https://genumsi.inria.fr/qcm.php?h=450b01a64776a1c05ad4d37fd72de450)
+
+## [Exemples à comparer](http://10.10.62.20/Calcul/)
