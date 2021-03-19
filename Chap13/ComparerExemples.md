@@ -122,12 +122,19 @@ function maFonction() {
 * l'apparence est la même que dans l'exemple1
 * mais la balise `<form>` n'a pas d'attibut method, ni action
 * le bouton affiché n'est pas de type `submit` mais simplement `button`
-Lorsque l'utilisateur saisit des valeurs, puis clique sur le bouton, **le formulaire n'est pas envoyé** ! 
+* lorsque l'utilisateur saisit des valeurs, puis clique sur le bouton, **le formulaire n'est pas envoyé** ! 
+* 
 #### Comment le résultat est-il affiché ?
 * le bouton dispose d'un attribut `onclick`
 * cet attribut permet d'exécuter `MaFonction()` lorsque le bouton est cliqué.
-* cette fonction est définie dans la balise `<sript>` située dans l'entête du fichier. 
+* cette fonction est définie dans la balise `<script>` située dans l'entête du fichier. 
+* la fonction, écrite en Javascript, effectue le calcul et affiche la réponse. 
 
 Lorsque le bouton est cliqué :
-* **c'est le navigateur du client qui effectue le calcul** et affiche la réponse. 
+* **c'est le navigateur du client qui effectue le calcul** et affiche la réponse, grâce au code Javascript contenu dans le fichier. 
 * Une fois la page chargée, l'utilisateur peut effectuer autant de calculs qu'il souhaite, sans avoir besoin de se connecter au serveur.
+
+# Comparaison
+* dans l'exemple1, l'addition est effectuée côté **serveur** à l'aide d'instructions écrites en **php**. 
+* dans l'exemple2, l'addition est effectuée côté **client** à l'aide des instructions écrites en **javascript** dans le fichier `ex2.html`
+* on peut visualiser la différence entre ces deux langages en saisissant une valeur numérique dans le premier champ du formulaire, et un texte dans le deuxième champ. Ce cas est géré différemment par javascript et php!
