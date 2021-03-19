@@ -88,7 +88,7 @@ Dans cet exemple1,
 * l'addition des deux valeurs saisies par le client est exécutée **sur le serveur**
 * la réponse est envoyée du serveur au client pour être affichée
 
-# Exemple 2 et 3
+# Exemple 2
 Dans cet exemple2, le client dispose du code html suivant : 
 ```html
 <!doctype html>
