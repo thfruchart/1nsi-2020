@@ -80,13 +80,13 @@ Pour produire cette page html, le serveur a exécuté les instructions contenues
    *  balise ouvrante  `<?php`
    *  balise fermante `?>`
    *  le **code php** contenu entre ces deux balises est **exécuté sur le serveur**
-   *  le résultat produit (ici le contenu d'un paragraphe) est envoyé au client (au format html)
+   *  le résultat produit (ici le contenu d'un paragraphe) est envoyé au client avec l'ensemble du fichier.
 
 ### Conclusion
 Dans cet exemple1, 
 * les valeurs entrées dans le formulaires sont envoyées au serveur
 * l'addition des deux valeurs saisies par le client est exécutée **sur le serveur**
-* la réponse est envoyée du serveur au client pour être affichée
+* la réponse est envoyée du serveur au client, qui peut alors l'afficher.
 
 # Exemple 2
 Dans cet exemple2, le client dispose du code html suivant : 
