@@ -41,3 +41,37 @@ un client qui a saisi les valeurs 12 et 25 dans le formulaire, recevra du serveu
  </body>
 </html>
 ```
+
+Pour produire cette page html, le serveur a exécuté les instructions contenues dans le fichier  `php-calcul.php`.
+## Côté serveur
+* on donne le contenu du fichier  `php-calcul.php` qui est exécuté sur le serveur 
+* Attention : 
+   * le client n'a PAS accès au code php qui est exécuté.
+   * le client ne reçoit en réponse que le résultat produit par ce code
+
+```php
+<!doctype html>
+<html>
+ <head>
+     <title>
+        Résultat du calcul
+     </title>
+     <meta charset="utf8">
+ </head>
+ <body>
+<p>
+    <?php
+    if (isset($_POST['n1']) && isset($_POST['n2']) )
+    {
+        $n1 = $_POST['n1'];
+        $n2 = $_POST['n2'];
+        $s = $n1 + $n2;
+        echo "$n1 + $n2 = $s";
+
+    }
+    else { echo "Erreur";}
+    ?>
+</p>
+ </body>
+</html>
+```
