@@ -47,7 +47,7 @@ Pour produire cette page html, le serveur a exécuté les instructions contenues
 * on donne le contenu du fichier  `php-calcul.php` qui est exécuté sur le serveur 
 * Attention : 
    * le client n'a PAS accès au code php qui est exécuté.
-   * le client ne reçoit en réponse que le résultat produit par ce code
+   * le client ne "connaît" que le résultat produit par ce code, qui est envoyé comme réponse à sa requête.
 
 ```php
 <!doctype html>
@@ -79,8 +79,8 @@ Pour produire cette page html, le serveur a exécuté les instructions contenues
 *  il contient également deux  balises spéciales "php" : 
    *  balise ouvrante  `<?php`
    *  balise fermante `?>`
-   *  le code php contenu entre ces deux balises est exécuté **sur le serveur**
-   *  le résultat produit (ici le contenu d'un paragraphe) est envoyé au client
+   *  le **code php** contenu entre ces deux balises est **exécuté sur le serveur**
+   *  le résultat produit (ici le contenu d'un paragraphe) est envoyé au client (au format html)
 
 ### Conclusion
 Dans cet exemple1, 
