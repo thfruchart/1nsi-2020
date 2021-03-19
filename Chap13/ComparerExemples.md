@@ -88,3 +88,46 @@ Dans cet exemple1,
 * l'addition des deux valeurs saisies par le client est exécutée **sur le serveur**
 * la réponse est envoyée du serveur au client pour être affichée
 
+# Exemple 2 et 3
+Dans cet exemple2, le client dispose du code html suivant : 
+```html
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Addition
+		</title>
+		<meta charset="utf-8"/>
+		<script>
+function maFonction() {
+   var nombre1 = document.getElementById("n1").value;
+   var nombre2 = document.getElementById("n2").value;
+   var resultat = Number(nombre1) + Number(nombre2);
+   var texte = nombre1 + " + " + nombre2 + ' = ' + resultat;
+   document.getElementById("resu").innerText = texte;
+}
+		</script>
+	</head>
+	<body>
+		 <form>
+			  <input type="text" id="n1"/><div>+</div>
+			  <input type="text" id="n2"/>
+			  <input type="button" onclick="maFonction()" value="CALCULER"/>
+		 </form>
+		 <p id="resu"></p>
+	</body>
+</html>
+```
+#### On remarque que : 
+* l'apparence est la même que dans l'exemple1
+* mais la balise `<form>` n'a pas d'attibut method, ni action
+* le bouton affiché n'est pas de type `submit` mais simplement `button`
+Lorsque l'utilisateur saisit des valeurs, puis clique sur le bouton, **le formulaire n'est pas envoyé** ! 
+#### Comment le résultat est-il affiché ?
+* le bouton dispose d'un attribut `onclick`
+* cet attribut permet d'exécuter `MaFonction()` lorsque le bouton est cliqué.
+* cette fonction est définie dans la balise `<sript>` située dans l'entête du fichier. 
+
+Lorsque le bouton est cliqué :
+* **c'est le navigateur du client qui effectue le calcul** et affiche la réponse. 
+* Une fois la page chargée, l'utilisateur peut effectuer autant de calculs qu'il souhaite, sans avoir besoin de se connecter au serveur.
