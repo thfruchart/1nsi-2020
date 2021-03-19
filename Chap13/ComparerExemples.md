@@ -75,3 +75,16 @@ Pour produire cette page html, le serveur a exécuté les instructions contenues
  </body>
 </html>
 ```
+* ce fichier php contient des balises html "classique"
+*  il contient également deux  balises spéciales "php" : 
+   *  balise ouvrante  `<?php`
+   *  balise fermante `?>`
+   *  le code php contenu entre ces deux balises est exécuté **sur le serveur**
+   *  le résultat produit (ici le contenu d'un paragraphe) est envoyé au client
+
+### Conclusion
+Dans cet exemple1, 
+* les valeurs entrées dans le formulaires sont envoyées au serveur
+* l'addition des deux valeurs saisies par le client est exécutée **sur le serveur**
+* la réponse est envoyée du serveur au client pour être affichée
+
