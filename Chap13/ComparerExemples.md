@@ -123,12 +123,12 @@ Dans cet exemple2, le client dispose du code html suivant :
 * mais la balise `<form>` n'a pas d'attibut method, ni action
 * le bouton affiché n'est pas de type `submit` mais simplement `button`
 * lorsque l'utilisateur saisit des valeurs, puis clique sur le bouton, **le formulaire n'est pas envoyé** ! 
-* 
+
 #### Comment le résultat est-il affiché ?
 * le bouton dispose d'un attribut `onclick`
 * cet attribut permet d'exécuter `MaFonction()` lorsque le bouton est cliqué.
 * cette fonction est définie dans la balise `<script>` située dans l'entête du fichier. 
-* la fonction, écrite en Javascript, effectue le calcul et affiche la réponse. 
+* la fonction, écrite en Javascript, effectue le calcul et affiche la réponse dans le paragraphe dont l'id est `resu`. 
 
 Lorsque le bouton est cliqué :
 * **c'est le navigateur du client qui effectue le calcul** et affiche la réponse, grâce au code Javascript contenu dans le fichier. 
