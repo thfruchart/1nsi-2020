@@ -25,7 +25,7 @@
 * `ls -l`
 * `nano fichier.max`
 * avec l'éditeur nano : 
-   * écrire le contenu du fichier,
+   * écrire une ligne dans le fichier, par exemple : `Ecriture d'une ligne par Max !`
    * sauvegarder avec Ctrl+S
    * quitter nano avec Ctrl+Q
  * `cat fichier.max`
