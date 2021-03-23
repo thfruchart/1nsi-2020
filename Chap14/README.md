@@ -31,7 +31,7 @@
  * `cat fichier.max`
 
 ### en tant que **elsa**
-* `su max`
+* `su elsa`
 * `whoami`
 * `ls -l`
 * `cat fichier.max`
