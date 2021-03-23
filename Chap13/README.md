@@ -1,4 +1,4 @@
-# Chapitre 13 : HTML et CSS
+# Chapitre 13 :  WEB et utilisateur
 
 ## liens utiles
 * [une page HTML basique](https://github.com/thfruchart/1nsi-2020/blob/master/Chap13/page_basique.html)
