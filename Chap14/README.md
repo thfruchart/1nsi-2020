@@ -1,7 +1,7 @@
 # Systèmes d'exploitation
 
-## lien vers cours en ligne
-## lien vers TP en ligne
+## lien vers [cours en ligne](https://www.lyceum.fr/1g/nsi/6-architectures-materielles-et-systemes-dexploitation/3-systemes-dexploitation)
+## lien vers [TP en ligne](https://www.lyceum.fr/1g/nsi/6-architectures-materielles-et-systemes-dexploitation/3-systemes-dexploitation/exo)
 
 ## commandes à exécuter dans [JSLinux](https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192)
 ### en tant que root : définir groupe et utilisateurs
