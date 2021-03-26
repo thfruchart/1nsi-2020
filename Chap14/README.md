@@ -50,7 +50,7 @@
 
 
 # Exercices
-## EX1cat /etc/pa
+## EX1
 On suppose que le répertoire personnel de l'utilisateur courant est vide. 
 * décrire l'effet de chaque  commande ci-dessous, en supposant qu'elles sont effectuées dans l'ordre
 * tester en exécutant ces commandes avec  [JSLinux](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg)
@@ -76,5 +76,20 @@ On suppose que le répertoire personnel de l'utilisateur courant est vide.
 20. cd ..
 21. ls
 
+## Ex2
+On suppose que le répertoire personnel de l'utilisateur courant est vide. 
+* décrire l'effet de chaque  commande ci-dessous, en supposant qu'elles sont effectuées dans l'ordre
+* tester en exécutant ces commandes avec  [JSLinux](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg)
+
+1. cd 
+2. mkdir TEST
+3. cd TEST
+4. touch fichier
+5. touch ../fic
+6. ls -l
+7. chmod o+w
+8. ls -l
+9. chmod a-w
+10. ls -l
 
 
