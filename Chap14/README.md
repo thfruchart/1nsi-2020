@@ -3,7 +3,7 @@
 ## lien vers [cours en ligne](https://www.lyceum.fr/1g/nsi/6-architectures-materielles-et-systemes-dexploitation/3-systemes-dexploitation)
 ## lien vers [TP en ligne](https://www.lyceum.fr/1g/nsi/6-architectures-materielles-et-systemes-dexploitation/3-systemes-dexploitation/exo)
 
-## commandes à exécuter dans [JSLinux](https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192)
+## commandes à exécuter dans [JSLinux](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg)
 ### en tant que root : définir groupe et utilisateurs
 * `addgroup eleve`
 * `adduser -G eleve max`
@@ -50,7 +50,31 @@
 
 
 # Exercices
-## EX1
+## EX1cat /etc/pa
 On suppose que le répertoire personnel de l'utilisateur courant est vide. 
 * décrire l'effet de chaque  commande ci-dessous, en supposant qu'elles sont effectuées dans l'ordre
-* tester en exécutant ces commandes avec  [JSLinux](https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192)
+* tester en exécutant ces commandes avec  [JSLinux](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg)
+
+1. cd ~
+2. mkdir NSI
+3. mkdir NSI/TP
+4. cd NSI
+5. ls
+6. cd TP
+7. cd ..
+8. ls
+9. touch fic1
+10. touch TP/fic2
+12. ls
+13. ls TP
+14. mv fic1 TP
+15. ls
+16. cd TP
+17. ls
+18. cp fic2 ..
+19. ls
+20. cd ..
+21. ls
+
+
+
