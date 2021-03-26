@@ -48,3 +48,9 @@
 3. Toto peut-il copier le fichier `/home/max/documents/fichier.max` vers `home/max/copie_fichier.max` ?
 4. Toto peut-il copier le fichier `/home/max/documents/fichier.max` vers `home/toto/copie_fichier.max` ?
 
+
+# Exercices
+## EX1
+On suppose que le répertoire personnel de l'utilisateur courant est vide. 
+* décrire l'effet de chaque  commande ci-dessous, en supposant qu'elles sont effectuées dans l'ordre
+* tester en exécutant ces commandes avec  [JSLinux](https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192)
