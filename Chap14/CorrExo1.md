@@ -17,9 +17,9 @@ On suppose que le répertoire personnel de l'utilisateur courant est vide.
 13. `ls TP` liste le contenu du dossier TP : ce dossier contient le fichier **fic2**
 14. `mv fic1 TP` déplace le fichier **fic1** vers le dossier **TP**
 15. `ls` liste le contenu du dossier courant (NSI) : ce dossier contient  le dossier **TP** (mais pas le fichier fic1 vient d'être déplacé)
-16. cd TP
-17. ls
-18. cp fic2 ..
-19. ls
-20. cd ..
-21. ls
+16. `cd TP` ouvre le dossier **TP**
+17. `ls` liste le contenu du dossier courant (TP) : ce dossier contient **fic1** et **fic2**
+18. `cp fic2 ..` crée une copie de **fic2** dans le dossier parent (NSI)
+19. `ls` liste le contenu du dossier courant (TP) : ce dossier contient **fic1** et **fic2**. (la commande cp crée une copie mais ne déplace pas le fichier, contrairement à la commande mv)
+20. `cd ..` ouvre le dossier parent (NSI)
+21. `ls` liste le contenu du dossier courant (NSI) : ce dossier contient  le dossier **TP** et un fichier **fic2** (qui a été copié à l'étape 18)
