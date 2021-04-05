@@ -18,3 +18,4 @@ NEW : [parcours d'un tableau](https://github.com/thfruchart/1nsi-2020/blob/maste
 * Chap11: [Mise au point de programmes](https://github.com/thfruchart/1nsi-2020/tree/master/Chap11)
 * Chap12: [Trier un tableau](https://github.com/thfruchart/1nsi-2020/tree/master/Chap12)
 * Chap13: [Interaction Homme-Machine sur le Web](https://github.com/thfruchart/1nsi-2020/tree/master/Chap13)
+* Chap14: [Systèmes d'exploitation](https://github.com/thfruchart/1nsi-2020/tree/master/Chap14)
