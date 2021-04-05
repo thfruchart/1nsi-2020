@@ -87,9 +87,9 @@ On suppose que le répertoire personnel de l'utilisateur courant est vide.
 4. touch fichier
 5. touch ../fic
 6. ls -l
-7. chmod o+w
+7. chmod o+w fichier
 8. ls -l
-9. chmod a-w
+9. chmod a-w fichier
 10. ls -l
 
 
