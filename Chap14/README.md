@@ -99,7 +99,7 @@ On suppose que le répertoire personnel de l'utilisateur courant est vide.
 * tester les commandes suivantes avec  [JSLinux](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg)
 * que pouvez-vous en conclure sur le rôle du caractère `*` dans les noms de fichiers ?
 
-1. `touch a1.txt a2.txt a1.py a2.py`
+1. `touch a1.txt a2.txt a1.py a2.py b1.py`
 2. `ls` 
 3. `ls *.txt`
 4. `ls a*.py`
@@ -110,3 +110,4 @@ On suppose que le répertoire personnel de l'utilisateur courant est vide.
 9. `ls sauvegarde`
 10. `ls`
 11. `rm *2.*`
+12. `ls`
