@@ -2,7 +2,9 @@
 
 ## lien vers [cours en ligne](https://www.lyceum.fr/1g/nsi/6-architectures-materielles-et-systemes-dexploitation/3-systemes-dexploitation)
 ## lien vers [TP en ligne](https://www.lyceum.fr/1g/nsi/6-architectures-materielles-et-systemes-dexploitation/3-systemes-dexploitation/exo)
+## [Fiche synthétique des principales commandes](https://pixees.fr/informatiquelycee/n_site/fiches/1/13_cmd_linux.pdf)
 
+# TP
 ## commandes à exécuter dans [JSLinux](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg)
 ### en tant que root : définir groupe et utilisateurs
 * `addgroup eleve`
@@ -92,4 +94,19 @@ On suppose que le répertoire personnel de l'utilisateur courant est vide.
 9. chmod a-w fichier
 10. ls -l
 
+## Ex3
+On suppose que le répertoire personnel de l'utilisateur courant est vide. 
+* tester les commandes suivantes avec  [JSLinux](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg)
+* que pouvez-vous en conclure sur le rôle du caractère `*` dans les noms de fichiers ?
 
+1. `touch a1.txt a2.txt a1.py a2.py`
+2. `ls` 
+3. `ls *.txt`
+4. `ls a*.py`
+5. `ls a2.*`
+6. `mkdir sauvegarde`
+7. `mv *1.* sauvegarde`
+8. `cp a* sauvegarde`
+9. `ls sauvegarde`
+10. `ls`
+11. `rm *2.*`
