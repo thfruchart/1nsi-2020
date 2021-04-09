@@ -19,3 +19,5 @@ NEW : [parcours d'un tableau](https://github.com/thfruchart/1nsi-2020/blob/maste
 * Chap12: [Trier un tableau](https://github.com/thfruchart/1nsi-2020/tree/master/Chap12)
 * Chap13: [Interaction Homme-Machine sur le Web](https://github.com/thfruchart/1nsi-2020/tree/master/Chap13)
 * Chap14: [Systèmes d'exploitation](https://github.com/thfruchart/1nsi-2020/tree/master/Chap14)
+* Chap15: [Représentation des textes](https://github.com/thfruchart/1nsi-2020/tree/master/Chap15)
+* Chap16 : [Recherche dichotomique](https://github.com/thfruchart/1nsi-2020/tree/master/Chap16)
