@@ -8,4 +8,4 @@
 ## 5. [Protocole du bit alterné](https://pixees.fr/informatiquelycee/n_site/nsi_prem_bit_alt.html)
 ## [QCM](https://genumsi.inria.fr/qcm.php?h=e0a752c15d758c11e66832c989be6108)
 
-### [Vidéo de synthèse](https://youtu.be/abrLW6QnWF8?list=PLOapGKeH_KhFkfZDf5B-AKXmNIXEPpn4a&t=22)
+### [Pour aller plus loin : vidéo détaillée sur un exemple HTTP](https://youtu.be/abrLW6QnWF8?list=PLOapGKeH_KhFkfZDf5B-AKXmNIXEPpn4a&t=22)
