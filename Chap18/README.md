@@ -1,5 +1,13 @@
 # Structures de données : tuple, dictionnaire
 
 ## le type tuple
-
+* permet de stocker plusieurs valeurs dans une même donnée 
+* les valeurs sont ordonnées et accessibles grâce à un indice entier
+* ni les valeurs ni le nombre de données ne sont modifiables
 ## le type dict
+* permet de stocker plusieurs valeurs dans une même donnée 
+* les valeurs ne sont pas ordonnées et accessibles grâce à une clé (de type int, str...)
+* les valeurs et le nombre de données ne sont modifiables
+[Notebook à ouvrir](https://github.com/thfruchart/1nsi-2020/blob/master/Chap18/dictionnaire.ipynb)
+## Fiche synthétique
+[Données structurées](https://github.com/thfruchart/1nsi-2020/blob/master/Chap18/Synth%C3%A8se-Donn%C3%A9es-Structur%C3%A9es.pdf)
