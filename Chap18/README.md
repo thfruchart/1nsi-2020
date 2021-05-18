@@ -12,3 +12,4 @@
 * [Notebook à ouvrir](https://github.com/thfruchart/1nsi-2020/blob/master/Chap18/dictionnaire.ipynb)
 ## Fiche synthétique
 [Données structurées](https://github.com/thfruchart/1nsi-2020/blob/master/Chap18/Synth%C3%A8se-Donn%C3%A9es-Structur%C3%A9es.pdf)
+# [QCM](https://genumsi.inria.fr/qcm.php?h=24d8334aee46d585af92f39b9dfdd143)
