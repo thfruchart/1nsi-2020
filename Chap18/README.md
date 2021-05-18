@@ -7,7 +7,8 @@
 ## le type dict
 * permet de stocker plusieurs valeurs dans une même donnée 
 * les valeurs ne sont pas ordonnées et accessibles grâce à une clé (de type int, str...)
-* les valeurs et le nombre de données ne sont modifiables
-[Notebook à ouvrir](https://github.com/thfruchart/1nsi-2020/blob/master/Chap18/dictionnaire.ipynb)
+* les valeurs sont modifiables
+* le nombre de données est modifiable
+* [Notebook à ouvrir](https://github.com/thfruchart/1nsi-2020/blob/master/Chap18/dictionnaire.ipynb)
 ## Fiche synthétique
 [Données structurées](https://github.com/thfruchart/1nsi-2020/blob/master/Chap18/Synth%C3%A8se-Donn%C3%A9es-Structur%C3%A9es.pdf)
