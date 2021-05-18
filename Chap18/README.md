@@ -6,7 +6,7 @@
 * ni les valeurs ni le nombre de données ne sont modifiables
 ## le type dict
 * permet de stocker plusieurs valeurs dans une même donnée 
-* les valeurs ne sont pas ordonnées et accessibles grâce à une clé (de type int, str...)
+* les valeurs ne sont pas ordonnées, mais sont accessibles grâce à une clé (de type int, str...)
 * les valeurs sont modifiables
 * le nombre de données est modifiable
 * [Notebook à ouvrir](https://github.com/thfruchart/1nsi-2020/blob/master/Chap18/dictionnaire.ipynb)
