@@ -1,5 +1,7 @@
 # Dépôt des 1ère NSI : 2020-2021
 
+### [Lien vers le thème "Architecture matérielle"](https://youtube.com/playlist?list=PLOapGKeH_KhHDP6VDU0hEYFqtBLXo_Fsy)
+
 ## QCM de révision par thème
 1. [Représentation de données : Types et valeurs de base](https://genumsi.inria.fr/qcm.php?h=addc392fc6eaaf30611e5c5eb435c0a7)
 2. [Représentation de données : Types construits](https://genumsi.inria.fr/qcm.php?h=607488f89bde2d7640cffe1953c61b5b)
