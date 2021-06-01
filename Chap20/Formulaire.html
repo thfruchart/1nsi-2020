@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+ <head>
+     <title>
+        Questionnaire facile
+     </title>
+     <meta charset="utf8">
+	 <script type="text/javascript">
+		function score() {
+		  var rep1 = document.questionnaire.q1.value;
+		  var rep2 = document.questionnaire.q2.value;
+		  var rep3 = document.questionnaire.q3.value;
+		  var somme = Number(rep1) + Number(rep2) + Number(rep3);
+		  document.getElementById("resultat").innerHTML= somme;
+		}
+	 </script>
+ </head>
+ <body>
+ 
+	<form name="questionnaire" id="questionnaire">
+	<h2> Quelle est la réponse correcte à la question 1 ?</p>
+	<p><input type="radio" name="q1" value="0">A</p>
+	<p><input type="radio" name="q1" value="1">B</p>
+	<p><input type="radio" name="q1" value="0">C</p>
+	<p><input type="radio" name="q1" value="0">D</p>
+
+	<h2> Quelle est la réponse correcte à la question 2 ?</p>
+	<p><input type="radio" name="q2" value="0">A</p>
+	<p><input type="radio" name="q2" value="0">B</p>
+	<p><input type="radio" name="q2" value="0">C</p>
+	<p><input type="radio" name="q2" value="1">D</p>
+
+	<h2> Quelle est la réponse correcte à la question 3 ?</p>
+	<p><input type="radio" name="q3" value="0">A</p>
+	<p><input type="radio" name="q3" value="0">B</p>
+	<p><input type="radio" name="q3" value="1">C</p>
+	<p><input type="radio" name="q3" value="0">D</p>
+
+	<input type="button" value="Calculer le score" onclick="score()">
+	</form>
+
+	<p> Votre score : <span id="resultat"></span></p>
+ </body>
+</html>
+
+
+
+
+
+
