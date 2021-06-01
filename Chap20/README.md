@@ -1,6 +1,6 @@
 # Découverte de php
-![img1](https://github.com/thfruchart/1nsi-2020/blob/master/Chap20/SchemaClientServeurPHP1.png)
-![img2](https://github.com/thfruchart/1nsi-2020/blob/master/Chap20/SchemaClientServeurPHP2.png)
+![img1](schema1.gif)
+![img2](Architecture-d'un-site-web-avec-MySQL-PHP.jpg)
 
 ## Un exemple de fichier php
 * A copier dans `C:\xampp\htdocs\Questionnaire\`
