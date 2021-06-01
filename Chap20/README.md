@@ -4,4 +4,4 @@
 
 ## Un exemple de fichier php
 * A copier dans `C:\xampp\htdocs\Questionnaire\`
-* [formulaire.php](formulaire.php)
+* [Formulaire.php](Formulaire.php)
